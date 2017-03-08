@@ -1,0 +1,190 @@
+/* youhou
+   ========================================================================== */
+a:link, a:visited{ color: #00f; text-decoration: none; }
+a:hover{ color: #900; text-decoration: none; }
+a:active, a:focus{ color: #00f; text-decoration: none; }
+
+
+
+* {
+  font-family: "montserratregular";
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  max-width: 40%;
+  background-color: #1fbed6;
+  height: 2px;
+}
+
+
+main {
+  max-width         : 960px ;
+  margin-left       : auto;
+  margin-right      : auto;
+  display           : flex;
+  flex-direction    : row;
+  flex-wrap         : nowrap;
+  background-color  : #ccc;
+  margin            : 0 auto;
+  /*border         : purple solid 1px;*/
+}
+
+.container{
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer .container {
+  display           : flex;
+  flex-direction    : row;
+  flex-wrap         : nowrap;
+  margin            : 0 auto;
+  justify-content   : center;
+}
+
+/*____________ HEADER _____________*/
+header {
+  max-width             : 100%;
+  background-color      : #fff;
+}
+
+.fa-road:before {
+  content: "\f018";
+}
+/*__________________________ LOGO _____________*/
+.main-title {
+  order             : 1;
+  float             : left;
+  height            : 70px;
+  background-image  : url('../img/logo-badenbaden.png');
+  background-repeat : no-repeat;
+  bottom            : 0;
+  padding-left      : 130px;
+  font-size         : 0.8em;
+  color             : #787878;
+  font-family       : "Montserrat";
+}
+
+.main-title span {
+  font-family       : "FontAwesome";
+}
+
+.main-title strong {
+  text-transform    : uppercase;
+  color             : #1fbed6;
+
+}
+/*__________________________ NAVBAR _____________*/
+.main-nav {
+  color          : red;
+  display        : block;
+  float          : right;
+}
+.main-nav__item {
+  color          : red;
+  display        : block;
+  width          : 100px;
+  order          : 2;
+  float          : left;
+  bottom         : 0;
+  text-transform : uppercase;
+  font-size      : 0.7em;
+  color          : #575757;
+}
+.nav-language {
+  color          : red;
+  display        : block;
+  flex-direction : row;
+  flex-wrap      : nowrap;
+  float          : right;
+}
+.nav-language__item {
+  color          : red;
+  display        : inline-block;
+  flex-shrink    : 1;
+  width          : 100px;
+  order          : 2;
+  float          : left;
+  bottom         : 0;
+}
+/*____________ FOOTER _____________*/
+footer {
+  background-color  : #1fbed6;
+  color             : #fff;
+  /*border         : purple solid 1px;*/
+  margin-left       : auto;
+  margin-right      : auto;
+}
+
+.footer__infos {
+  width: 100px;
+  order: 0;
+  flex-grow: 4;
+}
+
+.footer__social{
+  order: 0;
+  flex-grow: 4;
+}
+
+.footer__press {
+  order: 2;
+  flex-grow: 4;
+}
+
+.footer__pros {
+  order: 4;
+  flex-grow: 4;
+}
+
+.footer__pros__item a {
+}
+
+.main-nav {
+  color          : red;
+  display        : block;
+  float          : right;
+}
+.main-nav__item {
+  color          : red;
+  display        : block;
+  width          : 100px;
+  order          : 2;
+  float          : left;
+  bottom         : 0;
+  text-transform : uppercase;
+  font-size      : 0.7em;
+  color          : #575757;
+}
+
+
+/*____________ SECTION _____________*/
+section {
+  width             : 705px;
+  order             : 1;
+  flex-shrink       : 1;
+  margin-top        : 10px;
+  margin-bottom     : 10px;
+  background-color  : #ddd;
+  padding           : 30px;
+  /*border          : purple solid 1px;*/
+}
+
+/*____________ SIDEBAR _____________*/
+.sidebar {
+  width             : 210px;
+  order             : 2;
+  margin-left       : 45px;
+  margin-top        : 10px;
+  margin-bottom     :  10px;
+  background-color  : #ddd;
+  /*border         : purple solid 1px;*/
+}
